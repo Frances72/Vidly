@@ -12,5 +12,9 @@ namespace Vidly.Models
         [Required(ErrorMessage = "{0} Is required")]
         [StringLength(20)]
         public string Name { get; set; }
+                
+        public bool IsSubscribedToNewsletter { get; set; }
+        public MembershipType MembershipType { get; set; }
+        public byte MembershipTypeId { get; set; }
     }
 }
