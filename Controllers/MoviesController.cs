@@ -36,7 +36,7 @@ namespace Vidly.Controllers
         }
 
 
-        public IActionResult Random()
+        /*public IActionResult Random()
         {
             var movie = new Movie() {Name = "Shrek!"};
 
@@ -65,7 +65,7 @@ namespace Vidly.Controllers
         public ActionResult ByReleaseDate(int year, int month)
         {
             return Content(year + "/" + month);
-        }  
+        }  */
 
         // GET: Movies
       //public async Task<IActionResult> Index()
