@@ -14,5 +14,5 @@ using Vidly.Models;
 
         public DbSet<Vidly.Models.Movie>? Movie { get; set; }
 
-        //public DbSet<Vidly.Models.Customer>? Customer { get; set; }
+       
     }
